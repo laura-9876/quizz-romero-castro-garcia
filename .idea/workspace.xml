@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3479d15-68f6-455f-8d74-f543f7ebd9c8" name="Changes" comment="security test" />
+    <list default="true" id="c3479d15-68f6-455f-8d74-f543f7ebd9c8" name="Changes" comment="add: funcioanlidades basicas y practicas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/repository/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/repository/ChefRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/repository/KitchenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/ChefService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/KitchenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/CustomUserDetails.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -25,12 +46,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Laurennkr&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "MERGED",
+      "assignee": "Laurennkr"
+    }
+  ],
+  "lastFilter": {
+    "state": "MERGED",
+    "assignee": "Laurennkr"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/laura-9876/quizz-romero-castro-garcia.git",
@@ -62,6 +89,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -122,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776188084595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="security test">
+      <option name="closed" value="true" />
+      <created>1776189272664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776189272664</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="security test" />
-    <option name="LAST_COMMIT_MESSAGE" value="security test" />
+    <MESSAGE value="add: funcioanlidades basicas y practicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: funcioanlidades basicas y practicas" />
   </component>
 </project>
