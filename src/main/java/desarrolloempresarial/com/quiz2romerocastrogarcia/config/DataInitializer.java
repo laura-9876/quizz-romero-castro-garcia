@@ -2,20 +2,22 @@ package desarrolloempresarial.com.quiz2romerocastrogarcia.config;
 
 import desarrolloempresarial.com.quiz2romerocastrogarcia.entity.Admin;
 import desarrolloempresarial.com.quiz2romerocastrogarcia.entity.Chef;
+import desarrolloempresarial.com.quiz2romerocastrogarcia.entity.Kitchen;
 import desarrolloempresarial.com.quiz2romerocastrogarcia.entity.Role;
 import desarrolloempresarial.com.quiz2romerocastrogarcia.repository.AdminRepository;
 import desarrolloempresarial.com.quiz2romerocastrogarcia.repository.ChefRepository;
+import desarrolloempresarial.com.quiz2romerocastrogarcia.repository.KitchenRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-
 @Component
 @RequiredArgsConstructor
 public class DataInitializer implements CommandLineRunner {
 
     private final AdminRepository adminRepository;
     private final ChefRepository chefRepository;
+    private final KitchenRepository kitchenRepository;
     private final PasswordEncoder passwordEncoder;
 
     @Override
@@ -32,6 +34,7 @@ public class DataInitializer implements CommandLineRunner {
             adminRepository.save(admin);
         }
 
+        Chef savedChef;
         if (chefRepository.findByUsername("chef").isEmpty()) {
             Chef chef = Chef.builder()
                     .name("Main Chef")
@@ -40,7 +43,19 @@ public class DataInitializer implements CommandLineRunner {
                     .role(Role.CHEF)
                     .build();
 
-            chefRepository.save(chef);
+            savedChef = chefRepository.save(chef);
+        } else {
+            savedChef = chefRepository.findByUsername("chef").orElseThrow();
+        }
+
+        if (kitchenRepository.findByChef(savedChef).isEmpty()) {
+            Kitchen kitchen = Kitchen.builder()
+                    .name("Central Kitchen")
+                    .location("First Floor")
+                    .chef(savedChef)
+                    .build();
+
+            kitchenRepository.save(kitchen);
         }
     }
 }
