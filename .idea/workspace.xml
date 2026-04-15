@@ -5,25 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3479d15-68f6-455f-8d74-f543f7ebd9c8" name="Changes" comment="add: funcioanlidades basicas y practicas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/repository/ChefRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/repository/KitchenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/ChefService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/KitchenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/config/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/AuthResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/LoginRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl/AuthServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +49,7 @@
     }
   ],
   "lastFilter": {
-    "state": "MERGED",
+    "state": "OPEN",
     "assignee": "Laurennkr"
   }
 }]]></component>
@@ -74,6 +69,9 @@
     "repository": "quizz-romero-castro-garcia"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
@@ -92,6 +90,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Quiz2RomeroCastroGarciaApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "feature/security",
@@ -158,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776189272664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: funcioanlidades basicas y practicas">
+      <option name="closed" value="true" />
+      <created>1776190511593</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776190511593</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
