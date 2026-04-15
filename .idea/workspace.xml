@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3479d15-68f6-455f-8d74-f543f7ebd9c8" name="Changes" comment="add: funcioanlidades basicas y practicas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/config/DataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/AuthResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/LoginRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/ChefResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/KitchenResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl/ChefServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/config/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/ChiefController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/ChefController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/ChefService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/ChefService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776190511593</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: funcioanlidades basicas y practicas">
+      <option name="closed" value="true" />
+      <created>1776212504692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776212504692</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
