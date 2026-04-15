@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3479d15-68f6-455f-8d74-f543f7ebd9c8" name="Changes" comment="add: funcioanlidades basicas y practicas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/config/DataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/AuthResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/LoginRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c3479d15-68f6-455f-8d74-f543f7ebd9c8" name="Changes" comment="add: seguridad de chef completada">
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/ChefRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/dto/KitchenRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl/AdminServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/AuthEntryPointJwt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/security/SecurityConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desarrolloempresarial/com/quiz2romerocastrogarcia/service/AdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,34 +33,34 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "MERGED",
-      "assignee": "Laurennkr"
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;Laurennkr&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Laurennkr"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Laurennkr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/laura-9876/quizz-romero-castro-garcia.git",
-    "accountId": "4a750303-de04-4d27-a6e0-e3fe899079e6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/laura-9876/quizz-romero-castro-garcia.git&quot;,
+    &quot;accountId&quot;: &quot;4a750303-de04-4d27-a6e0-e3fe899079e6&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "laura-9876",
-    "repository": "quizz-romero-castro-garcia"
+    &quot;owner&quot;: &quot;laura-9876&quot;,
+    &quot;repository&quot;: &quot;quizz-romero-castro-garcia&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -84,27 +76,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.Quiz2RomeroCastroGarciaApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/security",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Quiz2RomeroCastroGarciaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/security&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Quiz-2-romero-castro-garcia" />
@@ -165,7 +157,47 @@
       <option name="project" value="LOCAL" />
       <updated>1776190511593</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: funcioanlidades basicas y practicas">
+      <option name="closed" value="true" />
+      <created>1776212504692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776212504692</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add: seguridad de chef completada">
+      <option name="closed" value="true" />
+      <created>1776213891642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776213891642</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add: seguridad de chef completada">
+      <option name="closed" value="true" />
+      <created>1776213921043</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776213921043</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add: seguridad de chef completada">
+      <option name="closed" value="true" />
+      <created>1776223225829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776223225829</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add: seguridad de chef completada">
+      <option name="closed" value="true" />
+      <created>1776223273100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776223273100</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +206,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="security test" />
     <MESSAGE value="add: funcioanlidades basicas y practicas" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: funcioanlidades basicas y practicas" />
+    <MESSAGE value="add: seguridad de chef completada" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: seguridad de chef completada" />
   </component>
 </project>
